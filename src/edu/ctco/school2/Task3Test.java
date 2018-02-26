@@ -9,10 +9,10 @@ public class Task3Test {
     double x = Math.pow(a, 1./3);
 
     System.out.println("result of cube root= " + x);
-        if (x == 0) //not clear how it should be checked
-        System.out.println("entered number"+ number + "is cubic ");
+        if (x%1 == 0)
+        System.out.println("entered number"+ a + "is cubic ");
         else
-        System.out.println("entered number"+ number + "is not cubic ");
+        System.out.println("entered number"+ a + "is not cubic ");
 
 }
 }
