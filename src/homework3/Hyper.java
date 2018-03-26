@@ -5,4 +5,7 @@ public class Hyper extends Aircraft {
         super(type, speed);
     }
 
+    void hyper() {
+        System.out.println("can fly hypersonic");
+    }
 }
