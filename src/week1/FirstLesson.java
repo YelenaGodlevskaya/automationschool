@@ -109,10 +109,10 @@ public class FirstLesson {
         }
     }
 
-    public static void getNewNumber(int d) throws Week2.FirstLesson.NegativeNumberException
+    public static void getNewNumber(int d) throws week2.FirstLesson.NegativeNumberException
     {
         if (d < 0) {
-            throw new Week2.FirstLesson.NegativeNumberException("Negative numbers are restricted!");
+            throw new week2.FirstLesson.NegativeNumberException("Negative numbers are restricted!");
         }
 // esli statuchnij a daljse ispoljzuem ne statichnij to nado sozdatj object/exeplar classa
 

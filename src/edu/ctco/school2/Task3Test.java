@@ -6,13 +6,14 @@ public class Task3Test {
     Scanner number = new Scanner(System.in);
     System.out.println("enter integer number");
         int a = number.nextInt();
-    double x = Math.pow(a, 1./3);
+    //double x = Math.pow(a, 1.0/3);
+        double x = Math.exp(Math.log(a)/3);
 
     System.out.println("result of cube root= " + x);
         if (x%1 == 0)
-        System.out.println("entered number"+ a + "is cubic ");
+        System.out.println("entered number "+ a + " is cubic ");
         else
-        System.out.println("entered number"+ a + "is not cubic ");
+        System.out.println("entered number "+ a + " is not cubic ");
 
 }
 }
